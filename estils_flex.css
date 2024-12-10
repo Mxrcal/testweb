@@ -1,0 +1,137 @@
+/* Capçalera */
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Anaheim", sans-serif;
+    align-items: center;
+    padding: 20px;
+    background-color: #98A895;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+form {
+    display: flex;
+}
+
+form input {
+    padding: 5px;
+}
+
+form button {
+    padding: 5px 10px;
+    background-color: #647062;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Contingut principal */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h2{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+section form input,
+section form button {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section article img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+section article h3 {
+    margin-bottom: 10px;
+}
+
+.anuncis {
+    grid-column: span 2; /* La secció d'anuncis ocupa dues columnes */
+}
+
+.anuncis article img {
+    width: 100%;
+    height: auto;
+}
+
+/* Secció de Xarxes Socials */
+.xarxes {
+    display: flex;
+    justify-content: center; /* Centra les xarxes socials */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.xarxes ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.xarxes ul li {
+    margin: 0 10px; /* Espaiat entre les xarxes socials */
+}
+
+.xarxes ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.xarxes ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #98A895;
+    font-family: "Anaheim", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
